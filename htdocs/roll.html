@@ -17,34 +17,54 @@
 				width: 400px;
 				height: 400px;
 				margin: 30px auto;
+				
 			}
 			#roll img{
 				width: 100%;
         		height: 100%;
         		opacity: 0.75;
+			
 			}
       		#roll img:hover{
 				opacity: 1;
+				
+				
 			}
 			#roll div{
 				width: 200px;
 				height: 200px;
+			
 			}
-			#roll div:first-of-type{
-				background-color: red;
-			}
-			#roll div:nth-of-type(2){
-				background-color: yellow;
-				}
-			#roll div:nth-of-type(3){
-				background-color: blue;
-			}
-			#roll div:last-of-type{
- 				background-color: green;
+			#roll div:first-of-type{                
+				background-color: red;                
+				transform: translate(0px, -381px);                        
+			}            #roll div:nth-of-type(2){                
+				background-color: yellow;                
+				transform: translate(200px, -581px);                                
+			}            #roll div:nth-of-type(3){                
+				background-color: blue;                
+				transform: translate(0px, -581px);                        
+			}            #roll div:last-of-type{                
+				background-color: green;                 
+				transform: translate(200px, -781px);                            
 			}
 			p {
 				text-align: center;
 			}
+			#roll div:first-of-type:hover{
+				transform: skewX(20deg);
+			}
+			#roll div:nth-of-type(2):hover {
+				transform: skewX(20deg);
+			}
+			#roll div:nth-of-type(3):hover {
+				transform: skewX(20deg);
+			}
+		    #roll div:last-of-type:hover {
+				transform: skewX(20deg);
+			}
+
+
 		</style>
 	</head>
 	<body>
